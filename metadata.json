@@ -1,0 +1,6 @@
+{
+  "name": "Clipothèque",
+  "description": "Bibliothèque vidéo personnelle pour collecter, organiser et visionner vos vidéos YouTube, Instagram et TikTok par projets et notes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

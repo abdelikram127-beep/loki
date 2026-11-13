@@ -1,0 +1,120 @@
+{
+  "projects": [
+    {
+      "id": "proj-design",
+      "name": "Design & Architecture",
+      "description": "Références visuelles, études d’espaces et typographie éditoriale.",
+      "color": "blue",
+      "videoOrder": [
+        "vid-yt-1",
+        "vid-ig-1"
+      ],
+      "createdAt": "2026-11-08T10:00:00.000Z"
+    },
+    {
+      "id": "proj-atelier",
+      "name": "Atelier & Savoir-faire",
+      "description": "Tutoriels d’outillage, café de spécialité et workflows créatifs.",
+      "color": "emerald",
+      "videoOrder": [
+        "vid-tt-1",
+        "vid-yt-2"
+      ],
+      "createdAt": "2026-11-10T14:30:00.000Z"
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid-yt-1",
+      "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+      "platform": "youtube",
+      "videoId": "aqz-KE-bpKQ",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ",
+      "title": "Lumière naturelle et béton brut dans l’architecture muséale",
+      "author": "Atelier Spatial",
+      "thumbnailUrl": "fallback:architecture",
+      "fallbackKey": "architecture",
+      "duration": "09:56",
+      "addedAt": "2026-11-12T09:15:00.000Z",
+      "projectIds": [
+        "proj-design"
+      ],
+      "tags": [
+        "architecture",
+        "lumière",
+        "documentaire"
+      ],
+      "notes": "Excellente séquence d’ouverture sur le jeu d’ombres zénithales à 02:14. À conserver comme référence de cadrage.",
+      "isFavorite": true
+    },
+    {
+      "id": "vid-ig-1",
+      "url": "https://www.instagram.com/reel/C8xYzExample/",
+      "platform": "instagram",
+      "videoId": "C8xYzExample",
+      "embedUrl": "https://www.instagram.com/reel/C8xYzExample/embed",
+      "title": "Carnet de croquis industriel et ergonomie du poste de travail",
+      "author": "@studio.trame",
+      "thumbnailUrl": "fallback:design",
+      "fallbackKey": "design",
+      "duration": "00:54",
+      "addedAt": "2026-11-11T16:40:00.000Z",
+      "projectIds": [
+        "proj-design"
+      ],
+      "tags": [
+        "croquis",
+        "ergonomie",
+        "studio"
+      ],
+      "notes": "Disposition claire du bureau avec règle graduée et clavier mécanique compact.",
+      "isFavorite": false
+    },
+    {
+      "id": "vid-tt-1",
+      "url": "https://www.tiktok.com/@craftcoffee/video/7300000000000000001",
+      "platform": "tiktok",
+      "videoId": "7300000000000000001",
+      "embedUrl": "https://www.tiktok.com/embed/v2/7300000000000000001",
+      "title": "Extraction V60 : ratio 1:16 et maîtrise du versement lent",
+      "author": "@craftcoffee",
+      "thumbnailUrl": "fallback:culinary",
+      "fallbackKey": "culinary",
+      "duration": "01:12",
+      "addedAt": "2026-11-10T08:20:00.000Z",
+      "projectIds": [
+        "proj-atelier"
+      ],
+      "tags": [
+        "café",
+        "extraction",
+        "recette"
+      ],
+      "notes": "Température d’eau à 93 °C, pré-infusion de 45 secondes avec 50 g d’eau.",
+      "isFavorite": true
+    },
+    {
+      "id": "vid-yt-2",
+      "url": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "platform": "youtube",
+      "videoId": "M7lc1UVf-VE",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+      "title": "Lecteurs embarqués et intégration vidéo multi-plateformes",
+      "author": "YouTube Developers",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M7lc1UVf-VE/hqdefault.jpg",
+      "fallbackKey": "design",
+      "duration": "04:18",
+      "addedAt": "2026-11-09T11:05:00.000Z",
+      "projectIds": [
+        "proj-atelier"
+      ],
+      "tags": [
+        "développement",
+        "embed",
+        "documentation"
+      ],
+      "notes": "Référence technique pour les paramètres du lecteur intégré sans cookies.",
+      "isFavorite": false
+    }
+  ]
+}
